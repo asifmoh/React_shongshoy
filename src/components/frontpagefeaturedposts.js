@@ -1,12 +1,12 @@
 import React from "react";
-import Featuredarchive from "./featuredarchive";
+import Featuredslider from "./featuredslider";
 
-const Fronttop = () => {
+const Frontpagefeaturedposts = () => {
   return (
     <div className="front-page-top-section clearfix">
-    <div className="widget_slider_area">
-    <Featuredarchive />
-</div>
+   
+    <Featuredslider />
+
 
  
  
@@ -106,7 +106,7 @@ const Fronttop = () => {
 
   );
 };
-export default Fronttop;
+export default Frontpagefeaturedposts;
 
 
 

@@ -7,11 +7,11 @@ import './components/styles/cm.css';
 import './components/styles/style.min.css';
 import Header from './components/header.js';
 import Footer from './components/footer.js';
-import Secondary from './components/secondary.js';
-import Fronttop from './components/fronttop.js';
-import Featuredposts from './components/featuredposts';
-import Onehalf from './components/onehalf';
-import Otherhalf from './components/otherhalf';
+import Rightsidebar from './components/rightsidebar.js';
+import Frontpagefeaturedposts from './components/frontpagefeaturedposts.js';
+import Homeleftsideposts from './components/homeleftsideposts';
+import Homeleftsidebelowposts from './components/homeleftsidebelowposts';
+import Homeleftsidebelowposts2 from './components/homeleftsidebelowposts2';
 
 
 
@@ -22,20 +22,23 @@ class App extends Component {
         <div id="page" className="hfeed site">
           <a className="skip-link screen-reader-text" href="#main">Skip to content</a>
           <Header />
+          
+          
+          
           <div id="main" className="clearfix">
             <div className="inner-wrap clearfix">
-              <Fronttop />
+              <Frontpagefeaturedposts />
             <div className="main-content-section clearfix">
                 <div id="primary">
                   <div id="content" className="clearfix">
-                   <Featuredposts />
-                  <Onehalf />
-                  <Otherhalf />
+                   <Homeleftsideposts />
+                  <Homeleftsidebelowposts />
+                  <Homeleftsidebelowposts2 />
                     <div className="clearfix" />
                   </div>
                 </div>
               
-<Secondary />
+<Rightsidebar />
 
               </div>
             </div>

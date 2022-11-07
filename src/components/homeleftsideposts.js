@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Featuredposts = () => {
+const Homeleftsideposts = () => {
   return (
   <div>
     <section id="magazine_featured_posts_widget-24" className="widget widget_featured_posts widget_featured_meta clearfix">
@@ -908,7 +908,7 @@ const Featuredposts = () => {
 
   );
 };
-export default Featuredposts;
+export default Homeleftsideposts;
 
 
 

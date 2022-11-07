@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Secondary = () => {
+const Rightsidebar = () => {
   return (
     <div id="secondary">
                   <aside id="block-98" className="widget widget_block clearfix">
@@ -189,7 +189,7 @@ const Secondary = () => {
                 </div>
   );
 };
-export default Secondary;
+export default Rightsidebar;
 
 
 

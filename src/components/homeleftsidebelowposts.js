@@ -1,7 +1,8 @@
 import React from "react";
 
 
-const Onehalf = () => {
+
+const Homeleftsidebelowposts = () => {
   return (
     <div className="tg-one-half">
     <section id="magazine_featured_posts_vertical_widget-13" className="widget widget_featured_posts widget_featured_posts_vertical widget_featured_meta clearfix">
@@ -278,7 +279,7 @@ const Onehalf = () => {
 
   );
 };
-export default Onehalf;
+export default Homeleftsidebelowposts;
 
 
 
